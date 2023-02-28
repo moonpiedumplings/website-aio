@@ -111,7 +111,7 @@ const tryListen = (port) =>
 		});
 	});
 
-const ports = [80, 8080, 3000];
+const ports = [8080, 3000];
 
 const envPort = Number(process.env.PORT);
 if (!isNaN(envPort)) ports.unshift(envPort);
